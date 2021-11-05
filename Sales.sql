@@ -1,0 +1,1 @@
+SELECT sum(sales.transactions.sales_amount) from sales.transactions inner join sales.date on sales.transactions.order_date=sales.date.date where date.year="2019"-
